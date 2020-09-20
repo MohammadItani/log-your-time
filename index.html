@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="icons8-clock.svg" type="image/x-icon">
+    <script
+      src="https://kit.fontawesome.com/77b59fd83c.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Log Your Time!</title>
+  </head>
+  <body>
+    <h1>Log Your Time!</h1>
+    <div class="main-container">
+      <div class="col-1">
+        <ul>
+          <li>
+            Reading Time: &nbsp; &nbsp; <span class="reading-time time">0</span>
+          </li>
+          <li>
+            Thinking Time: &nbsp; &nbsp;
+            <span class="thinking-time time">0</span>
+          </li>
+          <li>
+            Coding Time: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+              class="coding-time time"
+              >0</span
+            >
+          </li>
+          <li>Debugging Time: <span class="debugging-time time">0</span></li>
+          <li>
+            Total Time:
+            <span class="total-time time"
+              >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</span
+            >
+          </li>
+          <div class="counter-container">
+            <li>Counter: <span class="counter time">0</span></li>
+            <li><button class="reset-btn">Reset</button></li>
+          </div>
+        </ul>
+      </div>
+      <div class="col-2">
+        <a href="#" class="play-btn"> <i class="fas fa-play fa-3x"></i></a>
+        <a href="#" class="pause-btn"><i class="fas fa-pause fa-3x"></i></a>
+        <div class="time-container">
+         <p class="current-time"><span class="minutes-time">00</span>:<span class="seconds-time">00</span></p>
+        </div>
+        <a href="#" class="stop-btn"> <i class="fas fa-stop fa-3x"></i></a>
+        <a href="#" class="restart-btn"><i class="fas fa-redo fa-3x"></i></a>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
